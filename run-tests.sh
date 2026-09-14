@@ -5,4 +5,4 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 ./build.sh
-java -cp out com.urbio.ledger.AllTests
+java -cp out com.account.ledger.AllTests
